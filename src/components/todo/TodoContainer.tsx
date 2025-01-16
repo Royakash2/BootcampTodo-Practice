@@ -1,13 +1,13 @@
 // import { DiGo } from "react-icons/di";
-import { FaPlus } from "react-icons/fa";
-import { Button } from "../ui/button";
+
 import TodoCard from "./TodoCard";
+import AddTodoModal from "./AddTodoModal";
 
 const TodoContainer = () => {
   return (
     <div>
       <div className="flex justify-between mb-5">
-        <Button variant={"outline"} className="hover:opacity-90 shadow border text-lime-600 font-bold font-mono border-lime-600">Add Todo <FaPlus /></Button>
+        <AddTodoModal/>
         <button>Filter</button>
       </div>
       <div className="bg-primary-gradient h-full w-full rounded-xl p-[5px] font-mono ">
